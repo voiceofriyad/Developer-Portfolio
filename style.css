@@ -1,9 +1,9 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Pangolin', cursive;
     font-family: 'Poppins', sans-serif; 
-    font-family: 'Ubuntu', sans-serif;
-        
+    font-family: 'Ubuntu', sans-serif;        
 }
 h1{
     font-size: 50px;
@@ -46,7 +46,7 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 450px;
     padding-bottom: 150px;
 }
 .linked-button{
@@ -61,6 +61,7 @@ section{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    height: 400px;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray ;
@@ -90,6 +91,7 @@ section{
     background-repeat: no-repeat;
     background-position: left;
     height: 300px;
+    margin-top: -120px;
 }
 .work-images img{
     width: 30%;
@@ -132,9 +134,9 @@ section{
 }
 .contact{
     background-image: linear-gradient(45deg, #EC4F8F, #EC4C77);
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 10px;
-    height: 120px;
+    height: 150px;
     width: 40%;
     margin: auto;
 }
